@@ -51,7 +51,7 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,400" rel="stylesheet">
-<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRBW6Z" title="added title" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRBW6Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
 
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
@@ -546,13 +546,13 @@ Email: <a class="mailto" href="mailto:univhq@amrita.edu">univhq@amrita.edu</a></
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first">
       
-  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/interaction-series-research-stories-banner_2.jpg?itok=wuEaapvf"  alt="logooo" /></div>  </div>  
+  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/interaction-series-research-stories-banner_2.jpg?itok=wuEaapvf" /></div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/news/amrita-dept-communication-begins-interaction-series-research-stories">Amrita Dept. of Communication Begins an Interaction Series "Research Stories"</a></span>  </div>  
   <div class="views-field views-field-created">        <span class="field-content">January 31, 2020</span>  </div>  
   <div>        <span>January 20th,  2020 marked the beginning of yet another creative initiative by the Department of...</span>  </div>  </div>
   <div class="views-row views-row-2 views-row-even">
       
-  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/amission-msw-banner-2020.jpg?itok=PqVi1NP3" alt="logooo" /></div>  </div>  
+  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/amission-msw-banner-2020.jpg?itok=PqVi1NP3" /></div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/news/msw-master-social-work-2020-admissions-open-amrita"> MSW (Master of Social Work) 2020 Admissions Open at Amrita</a></span>  </div>  
   <div class="views-field views-field-created">        <span class="field-content">January 27, 2020</span>  </div>  
   <div>        <span>Admissions are Open for MSW 2020 at Amrita Vishwa Vidyapeetham. 
@@ -561,19 +561,19 @@ Email: <a class="mailto" href="mailto:univhq@amrita.edu">univhq@amrita.edu</a></
 </span>  </div>  </div>
   <div class="views-row views-row-3 views-row-odd">
       
-  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/national-record-achievement-for-csi-student%20%E2%80%93branch-of-amrita-school-of-engineering-coimbatore.jpg?itok=MFJ1ooxC"  alt="logooo"/></div>  </div>  
+  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/national-record-achievement-for-csi-student%20%E2%80%93branch-of-amrita-school-of-engineering-coimbatore.jpg?itok=MFJ1ooxC" /></div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/news/national-record-achievement-csi-student-branch-amrita-school-engineering-coimbatore">National Record Achievement for CSI Student Branch of Amrita School of Engineering, Coimbatore</a></span>  </div>  
   <div class="views-field views-field-created">        <span class="field-content">January 23, 2020</span>  </div>  
   <div>        <span>The Eighth successive Best Computer Society of India (CSI) Student Branch award was conferred on...</span>  </div>  </div>
   <div class="views-row views-row-4 views-row-even">
       
-  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/amrita-scicon-2019-conference.jpg?itok=-rMq5sRj"  alt="logooo"/></div>  </div>  
+  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/amrita-scicon-2019-conference.jpg?itok=-rMq5sRj" /></div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/news/scicon-19-international-conference-material-science">SCICON 19 International Conference on Material Science</a></span>  </div>  
   <div class="views-field views-field-created">        <span class="field-content">December 31, 2019</span>  </div>  
   <div>        <span>The second edition of SCICON, International Conference on Advanced Materials, was held at Amrita...</span>  </div>  </div>
   <div class="views-row views-row-5 views-row-odd views-row-last">
       
-  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/amrita-professional-results-admissions.jpg?itok=xPbBibeU"  alt="logooo"/></div>  </div>  
+  <div class="views-field views-field-field-blog-image">        <div class="field-content"><img class="img-responsive" src="https://www.amrita.edu/sites/default/files/styles/121x74/public/amrita-professional-results-admissions.jpg?itok=xPbBibeU" /></div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/news/provisional-results-first-semester-ug-pg-november-2019-examinations-announced-coimbatore-campus">Provisional Results of First Semester UG &amp; PG November 2019 Examinations Announced: Coimbatore Campus</a></span>  </div>  
   <div class="views-field views-field-created">        <span class="field-content">December 28, 2019</span>  </div>  
   <div>        <span>The provisional results of first semester of UG &amp; PG programs under School of Engineering,...</span>  </div>  </div>
@@ -667,7 +667,7 @@ The Department of Mathematics, Amrita School of Engineering, in association with
 
 <p>The institution's Coimbatore campus is home to Schools of <a href="/school/agriculture">Agriculture Sciences</a>, <a href="/school/business/coimbatore">Business</a>, <a href="/school/communication">Mass Communication</a>, <a href="/school/engineering/coimbatore">Engineering</a> and <a href="/school/engineering/coimbatore">Social Work.</a></p>
 
-<div class="embed-responsive embed-responsive-16by9"><iframe allowfullscreen="" class="embed-responsive-item" frameborder="0" height="500" mozallowfullscreen="" src="https://www.easytourz.com/BT-EmabedTour/all/ee151aa40ebddf7a" title="ifraaam" style="border:0" webkitallowfullscreen="" width="100%"></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe allowfullscreen="" class="embed-responsive-item" frameborder="0" height="500" mozallowfullscreen="" src="https://www.easytourz.com/BT-EmabedTour/all/ee151aa40ebddf7a" style="border:0" webkitallowfullscreen="" width="100%"></iframe></div>
 </div>
 </div>
 

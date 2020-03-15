@@ -70,7 +70,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
                     <div class="card-body pb-0">
                         <div class="dropdown float-right">
                             <button class="btn bg-transparent dropdown-toggle theme-toggle text-light" type="button" id="dropdownMenuButton4" data-toggle="dropdown">
-                                <em class="fa fa-cog"></em>
+                                <i class="fa fa-cog"></i>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
                                 <div class="dropdown-menu-content">
@@ -105,7 +105,7 @@ $sublist=$query->rowCount();
                     <div class="card-body pb-0">
                         <div class="dropdown float-right">
                             <button class="btn bg-transparent dropdown-toggle theme-toggle text-light" type="button" id="dropdownMenuButton2" data-toggle="dropdown">
-                                <em class="fa fa-cog"></em>
+                                <i class="fa fa-cog"></i>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
                                 <div class="dropdown-menu-content">

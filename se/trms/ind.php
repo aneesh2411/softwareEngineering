@@ -315,7 +315,7 @@ color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							<li class="nav-item">
 								<a href="#" class="nav-link search" id="search">
-									<em class="lnr lnr-magnifier"></em>
+									<i class="lnr lnr-magnifier"></i>
 								</a>
 							</li>
 						</ul>
@@ -496,15 +496,13 @@ color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 								
 			
              <table>
-			 <caption></caption>
                 <tr>
-				
-                    <th id="fname">First Name</th>
-                    <th id="lname">Last Name</th>
-                    <th id="rollno">Rollno</th>
-                    <th id="sdate">Start Date</th>
-                    <th id="edate">End Date</th>
-                    <th id="reason">Reason</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Rollno</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Reason</th>
 
                 </tr>
                 <?php while($row = mysqli_fetch_array($search_result)):?>
@@ -974,9 +972,9 @@ color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 					</ul>
 				</div>-->
 				 <div class="d">
-					<p >  < size =" 3">DEVELOPED WITH LOVE <i class="fa fa-heart-o" aria-hidden="true"></i>, </font><br /></p>
-					<p> < size =" 3">BY,  </font> </p>
-					<p> < size =" 3">SWETHU AND ANEES. </font><br /> </p>
+					<p >  <font face = "Comic sans MS" size =" 3">DEVELOPED WITH LOVE <i class="fa fa-heart-o" aria-hidden="true"></i>, </font><br /></p>
+					<p> <font face = "Comic sans MS" size =" 3">BY,  </font> </p>
+					<p> <font face = "Comic sans MS" size =" 3">SWETHU AND ANEES. </font><br /> </p>
 					</div>
 			<!--	<div class="col-lg-2 col-md-6 single-footer-widget">
 					<h4>Features</h4>
@@ -1021,10 +1019,10 @@ color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 			<!--	<p class="col-lg-8 col-sm-12 footer-text m-0 text-white"><center>Copyright � 2018 All rights reserved | This template is
 					made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Colorlib</a> </center></p>-->
 				<div class="col-lg-4 col-sm-12 footer-social">
-					<a href="#"><em class="fa fa-facebook"></em></a>
-					<a href="#"><em class="fa fa-twitter"></em></a>
-					<a href="#"><em class="fa fa-dribbble"></em></a>
-					<a href="#"><em class="fa fa-behance"></em></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-dribbble"></i></a>
+					<a href="#"><i class="fa fa-behance"></i></a>
 				</div>
 			</div>
 		</div>

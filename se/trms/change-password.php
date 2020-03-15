@@ -132,7 +132,7 @@ return true;
                                                     </div>
                                                    
                                                     <p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
-                                                            <em class="fa fa-dot-circle-o"></em> Change
+                                                            <i class="fa fa-dot-circle-o"></i> Change
                                                         </button></p>
                                                      
                                                 </div>

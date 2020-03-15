@@ -9,7 +9,7 @@ define('DB_PASS' ,'');
 define('DB_NAME', 'trms');
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
     
-    $ret=mysqli_query($con,"SELECT * FROM tbladmin WHERE UserName='1707' and password='swe3'");
+    $ret=mysqli_query($con,"SELECT * FROM tbladmin WHERE UserName='177' and password='sw23'");
 $num=mysqli_fetch_array($ret);
 if($num>0)
 {

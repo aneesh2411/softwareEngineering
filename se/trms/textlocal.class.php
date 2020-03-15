@@ -72,7 +72,16 @@ class Textlocal
 		else throw new Exception('Invalid request handler.');
 
 		$result = json_decode($rawResponse);
-		
+		if (isset($result->errors)) {
+			if (count($result->errors) > 0) {
+				foreach ($result->errors as $error) {
+					switch ($error->code) {
+						default:
+							throw new Exception($error->message);
+					}
+				}
+			}
+		}
 
 		return $result;
 	}

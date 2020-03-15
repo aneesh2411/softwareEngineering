@@ -115,7 +115,7 @@ foreach($results as $row)
                                                    <?php $cnt=$cnt+1;}} ?> 
                                                      <div class="card-footer">
                                                        <p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
-                                                            <em class="fa fa-dot-circle-o"></em> Update
+                                                            <i class="fa fa-dot-circle-o"></i> Update
                                                         </button></p>
                                                         
                                                     </div>

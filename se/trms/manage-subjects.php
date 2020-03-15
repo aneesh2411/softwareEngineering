@@ -73,15 +73,14 @@ if (strlen($_SESSION['trmsaid']==0)) {
                             </div>
                             <div class="card-body">
                                 <table class="table">
-								<caption>sdhj dhc </caption>
                                     <thead>
                                         <tr>
                                             <tr>
-                  <th id="sno">S.NO</th>
+                  <th>S.NO</th>
             
-                  <th id="subname">Subject Name</th>
-                    <th id="credate">Creation Date</th>       
-                   <th id="action">Action</th>
+                  <th>Subject Name</th>
+                    <th>Creation Date</th>       
+                   <th>Action</th>
                 </tr>
                                         </tr>
                                         </thead>

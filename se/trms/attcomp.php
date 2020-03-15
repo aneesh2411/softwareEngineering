@@ -27,7 +27,7 @@ echo "<script>alert('Attendance taken'); </script>";
 
 ?>
 <!DOCTYPE html>
-<html lang="en>
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -199,7 +199,7 @@ input[type=submit]:hover {
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							<li class="nav-item">
 								<a href="#" class="nav-link search" id="search">
-									<em class="lnr lnr-magnifier"></em>
+									<i class="lnr lnr-magnifier"></i>
 								</a>
 							</li>
 						</ul>

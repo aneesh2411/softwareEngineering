@@ -86,7 +86,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
                                                         </div>
                                                     </div>
                                                     <p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="search" id="submit">
-                                                            <em class="fa fa-dot-circle-o"></em> Search
+                                                            <i class="fa fa-dot-circle-o"></i> Search
                                                         </button></p> 
 
                                                     </div> 
@@ -105,16 +105,15 @@ $sdata=$_POST['searchdata'];
 
                             <div class="card-body">
                                 <table class="table">
-								<caption>svjhsdc sdcjhc</caption>
                                     <thead>
                                         <tr>
                                             <tr>
-                  <th id="sno">S.NO</th>
+                  <th>S.NO</th>
             
-                  <th id="tname">Teacher Name</th>
-                  <th id="subject">Subject</th>
-                    <th id="regdate">Registration Date</th>       
-                   <th id="action">Action</th>
+                  <th>Teacher Name</th>
+                  <th>Subject</th>
+                    <th>Registration Date</th>       
+                   <th>Action</th>
                 </tr>
                                         </tr>
                                         </thead>

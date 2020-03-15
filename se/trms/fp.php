@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<title>Send SMS from PHP using textlocal</title>
 	<link rel="stylesheet" href="../../css/bootstrap.min.css">

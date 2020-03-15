@@ -27,7 +27,7 @@ function filterTable($query)
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <title>PHP HTML TABLE DATA SEARCH</title>
         <style>
@@ -44,12 +44,11 @@ function filterTable($query)
             <input type="submit" name="search" value="Filter"><br><br>
             
             <table>
-			<caption>s v ffdvrf </caption>
                 <tr>
-                    <th id="id">Id</th>
-                    <th id="fname">First Name</th>
-                    <th id="lname">Last Name</th>
-                    <th id="rollno">rollno</th>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>rollno</th>
                 </tr>
 
       <!-- populate table from mysql database -->

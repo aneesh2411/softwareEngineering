@@ -47,14 +47,13 @@ $db = mysqli_connect("localhost","root","","trms") or die('Server error');
   		<div class="table-responsive">
         <span id="message_operation"></span>
         <table class="table table-striped table-bordered" id="attendance_table">
-          <caption>this is attendance page</caption>
-		  <thead>
+          <thead>
             <tr>
-              <th id="studentname">Student Name</th>
-              <th id="rollno">Roll Number</th>
-              <th id="Grade">Grade</th>
-              <th id="astatus">Attendance Status</th>
-              <th id="adate">Attendance Date</th>
+              <th>Student Name</th>
+              <th>Roll Number</th>
+              <th>Grade</th>
+              <th>Attendance Status</th>
+              <th>Attendance Date</th>
             </tr>
           </thead>
           <tbody>
@@ -129,13 +128,12 @@ $result = $query->fetchAll();
           <div class="form-group" id="student_details">
             <div class="table-responsive">
               <table class="table table-striped table-bordered">
-			  <caption>this is striped table</caption>
                 <thead>
                   <tr>
-                    <th id="rollno">Roll No.</th>
-                    <th id="studentname">Student Name</th>
-                    <th id="present">Present</th>
-                    <th id="abs">Absent</th>
+                    <th>Roll No.</th>
+                    <th>Student Name</th>
+                    <th>Present</th>
+                    <th>Absent</th>
                   </tr>
                 </thead>
                 <?php

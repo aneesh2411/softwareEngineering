@@ -12,7 +12,7 @@ $search_result = $_SESSION['varname'];
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Untitled Document</title>
@@ -20,12 +20,11 @@ $search_result = $_SESSION['varname'];
 
 <body>
  <table>
- <caption>dd sd vsv s</caption>
                 <tr>
-                    <th id="id">Id</th>
-                    <th id="fname">First Name</th>
-                    <th id="lname">Last Name</th>
-                    <th id="rollno">rollno</th>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>rollno</th>
                 </tr>
                 <?php while($row = mysqli_fetch_array($search_result)):?>
                 <tr>

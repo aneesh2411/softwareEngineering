@@ -18,14 +18,13 @@ include('includes/dbconnection.php');
   	<div class="card-body">
   		<div class="table-responsive">
         <table class="table table-striped table-bordered" id="student_table">
-		<caption>bwejsadhybcsfvb sjvbj</caption>
           <thead>
             <tr>
-              <th id="name">Student Name</th>
-              <th id="roll">Roll Number</th>
-              <th id="grade">Grade</th>
-              <th id="attperce">Attendance Percentage</th>
-              <th id="report">Report</th>
+              <th>Student Name</th>
+              <th>Roll Number</th>
+              <th>Grade</th>
+              <th>Attendance Percentage</th>
+              <th>Report</th>
             </tr>
           </thead>
           <tbody>
