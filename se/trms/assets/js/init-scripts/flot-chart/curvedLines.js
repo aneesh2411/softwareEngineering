@@ -463,7 +463,7 @@ ____________________________________________________
 			    typeof curvedLinesOptions.curvePointFactor != 'undefined' ||
 			    typeof curvedLinesOptions.fitPointDist != 'undefined') {
 			    	throw new Error("CurvedLines detected illegal parameters. The CurvedLines API changed with version 1.0.0 please check the options object.");
-			    	return true;
+			    
 			    }
 			return false;
 		}

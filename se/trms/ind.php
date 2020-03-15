@@ -214,32 +214,7 @@ background:linear-gradient(to right,#ddd6f3    0%, #faaca8 100%);
 }
 .p{
 color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
-
 }
-.notification {
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  padding: 30px 27px;
-  position: relative;
-  display: inline-block;
-  border-radius: 2px;
-}
-
-.notification:hover {
-  background: red;
-}
-
-.notification .badge {
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  padding: 5px 10px;
-  border-radius: 50%;
-  background: red;
-  color: white;
-}
-
 </style>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -325,7 +300,6 @@ color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 						<ul class="nav navbar-nav menu_nav ml-auto">
 							<li class="nav-item active"><a class="nav-link" href="ind.php">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
-							<li class="nav-item"><a href="qwerty.php" class="notification"><span>INBOX</span><span class="badge"></span></a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Analyse </a>
@@ -341,7 +315,7 @@ color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							<li class="nav-item">
 								<a href="#" class="nav-link search" id="search">
-									<i class="lnr lnr-magnifier"></i>
+									<em class="lnr lnr-magnifier"></em>
 								</a>
 							</li>
 						</ul>
@@ -522,13 +496,15 @@ color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 								
 			
              <table>
+			 <caption></caption>
                 <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Rollno</th>
-                    <th>Start Date</th>
-                    <th>End Date</th>
-                    <th>Reason</th>
+				
+                    <th id="fname">First Name</th>
+                    <th id="lname">Last Name</th>
+                    <th id="rollno">Rollno</th>
+                    <th id="sdate">Start Date</th>
+                    <th id="edate">End Date</th>
+                    <th id="reason">Reason</th>
 
                 </tr>
                 <?php while($row = mysqli_fetch_array($search_result)):?>
@@ -998,9 +974,9 @@ color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 					</ul>
 				</div>-->
 				 <div class="d">
-					<p >  <font face = "Comic sans MS" size =" 3">DEVELOPED WITH LOVE <i class="fa fa-heart-o" aria-hidden="true"></i>, </font><br /></p>
-					<p> <font face = "Comic sans MS" size =" 3">BY,  </font> </p>
-					<p> <font face = "Comic sans MS" size =" 3">SWETHU AND ANEES. </font><br /> </p>
+					<p >  < size =" 3">DEVELOPED WITH LOVE <i class="fa fa-heart-o" aria-hidden="true"></i>, </font><br /></p>
+					<p> < size =" 3">BY,  </font> </p>
+					<p> < size =" 3">SWETHU AND ANEES. </font><br /> </p>
 					</div>
 			<!--	<div class="col-lg-2 col-md-6 single-footer-widget">
 					<h4>Features</h4>
@@ -1045,10 +1021,10 @@ color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 			<!--	<p class="col-lg-8 col-sm-12 footer-text m-0 text-white"><center>Copyright � 2018 All rights reserved | This template is
 					made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Colorlib</a> </center></p>-->
 				<div class="col-lg-4 col-sm-12 footer-social">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-behance"></i></a>
+					<a href="#"><em class="fa fa-facebook"></em></a>
+					<a href="#"><em class="fa fa-twitter"></em></a>
+					<a href="#"><em class="fa fa-dribbble"></em></a>
+					<a href="#"><em class="fa fa-behance"></em></a>
 				</div>
 			</div>
 		</div>

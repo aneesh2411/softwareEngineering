@@ -91,7 +91,7 @@ $password=$_POST['password'];
     </div>
     <div class="col-md-4" style="margin-top:20px;">
       <div class="card">
-        <div class="card-header">Teacher Login</div>
+        <div class="card-header">Faculty Login</div>
         <div class="card-body">
           <form method="post" id="teacher_login_form">
             <div class="form-group">

@@ -125,10 +125,10 @@ button:focus {
         margin-bottom: 10px; } }
   .main_title p {
     font-size: 16px;
+	margin: auto; 
     margin-bottom: 0px;
     max-width: 570px;
-    font-weight: 300;
-    margin: auto; }
+    font-weight: 300;}
 
 .lite_bg {
   background: #f9f9f9; }
@@ -173,10 +173,10 @@ button:focus {
 ============================================================================================ */
 .primary-btn {
   display: inline-block;
-  background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-  background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-  background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-  background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+  background: -webkit-linear-gradient( right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+  background: -moz-linear-gradient( right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+  background: -ms-linear-gradient( right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+  background: -o-linear-gradient( right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
   background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
   background-size: 200% auto;
   padding: 0px 38px;
@@ -475,10 +475,10 @@ button:focus {
       .home_banner_area .search_course_wrap input:focus {
         box-shadow: none; }
     .home_banner_area .search_course_wrap .search_course_btn {
-      background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-      background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-      background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-      background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+      background: -webkit-linear-gradient( right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+      background: -moz-linear-gradient( right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+      background: -ms-linear-gradient( right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+      background: -o-linear-gradient( right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
       background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
       background-size: 200% auto;
       border-radius: 0;
@@ -588,7 +588,7 @@ button:focus {
           text-transform: uppercase; }
           .banner_area .banner_inner .banner_content .page_link a:before {
             content: "\f178";
-            font: normal normal normal 14px/1 FontAwesome;
+            font: normal normal normal 14px/1 inherit;
             position: absolute;
             right: -25px;
             top: 50%;
@@ -1631,7 +1631,7 @@ button:focus {
   .comment-form .form-control {
     padding: 8px 20px;
     background: #fff;
-    border: none;
+   
     border-radius: 0px;
     width: 100%;
     font-size: 14px;
@@ -1685,7 +1685,7 @@ button:focus {
     color: "Crimson Text", serif;
     font-weight: bold;
     margin-bottom: 0px;
-    color: #222222; }
+    }
     .contact_info .info_item h6 a {
       color: #222222; }
   .contact_info .info_item p {
@@ -3063,7 +3063,7 @@ h6 {
   .nav {
     padding: 0px 0px; }
 
-  .header_area + section, .header_area + row, .header_area + div {
+  .header_area + section, .header_area + input{}, .header_area + div {
     margin-top: 117px; }
 
   .header_top .nav {
@@ -3089,7 +3089,7 @@ h6 {
   .header_area .navbar .nav .nav-item {
     margin-right: 0px; }
 
-  .header_area + section, .header_area + row, .header_area + div {
+  .header_area + section, .header_area + input{}, .header_area + div {
     margin-top: 0px;
     padding-top: 71px; }
 
@@ -3192,7 +3192,7 @@ h6 {
   .top_menu {
     display: none; }
 
-  .header_area + section, .header_area + row, .header_area + div {
+  .header_area + section, .header_area + input{}, .header_area + div {
     margin-top: 0px;
     padding-top: 71px; }
 
@@ -3319,19 +3319,16 @@ h6 {
     font-weight: 300;
     background: #333333;
     color: #ffffff;
+	padding: 10px; 
     padding-left: 20px;
     border-radius: 0;
     font-size: 14px;
-    padding: 10px; }
+    }
     .footer-area .single-footer-widget input:focus {
       outline: none;
       box-shadow: none; }
   .footer-area .single-footer-widget .click-btn {
-    background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    s background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
     background-size: 200% auto;
     color: #ffffff;
     border-radius: 0;

@@ -81,15 +81,16 @@ $tdate=$_POST['todate'];
 <h5 align="center" style="color:blue">Report from <?php echo $fdate?> to <?php echo $tdate?></h5>
 
                                 <table class="table">
+								<caption>this is report </caption>
                                     <thead>
                                         <tr>
                                             <tr>
-                  <th>S.NO</th>
+                  <th id="sno">S.NO</th>
             
-                  <th>Teacher Name</th>
-                  <th>Subject</th>
-                    <th>Registration Date</th>       
-                   <th>Action</th>
+                  <th id="teacher name">Teacher Name</th>
+                  <th id="subject">Subject</th>
+                    <th id="regestrationdate">Registration Date</th>       
+                   <th id="action">Action</th>
                 </tr>
                                         </tr>
                                         </thead>

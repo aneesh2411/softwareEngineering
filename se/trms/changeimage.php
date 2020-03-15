@@ -119,7 +119,7 @@ if($query->rowCount() > 0)
 foreach($results as $row)
 {               ?>
                                 <div class="form-group"><label for="company" class=" form-control-label">Teaher Name</label><input type="text" name="subjects" value="<?php  echo $row->Name;?>" class="form-control" id="subjects" readonly='true'></div>
-                                <div class="form-group"><label for="company" class=" form-control-label">Profile Pic</label><img src="images/<?php echo $row->Picture;?>" width="100" height="100" value="<?php  echo $row->Picture;?>"></div>
+                                <div class="form-group"><label for="company" class=" form-control-label">Profile Pic</label><img src="images/<?php echo $row->Picture;?>" alt="dfgh" width="100" height="100" value="<?php  echo $row->Picture;?>"></div>
                                 <div class="form-group"><label for="company" class=" form-control-label">New Profile Pic</label><input type="file" name="newpic" value="" class="form-control" id="newpic" required='true'></div>
                                    
                                         
@@ -129,7 +129,7 @@ foreach($results as $row)
                                                    <?php $cnt=$cnt+1;}} ?> 
                                                      <div class="card-footer">
                                                        <p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
-                                                            <i class="fa fa-dot-circle-o"></i> Update
+                                                            <em class="fa fa-dot-circle-o"></em> Update
                                                         </button></p>
                                                         
                                                     </div>

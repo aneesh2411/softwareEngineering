@@ -62,10 +62,10 @@
                     template is
                     made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Colorlib</a></p>
                 <div class="col-lg-4 col-sm-12 footer-social">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-dribbble"></i></a>
-                    <a href="#"><i class="fa fa-behance"></i></a>
+                    <a href="#"><em class="fa fa-facebook"></em></a>
+                    <a href="#"><em class="fa fa-twitter"></em></a>
+                    <a href="#"><em class="fa fa-dribbble"></em></a>
+                    <a href="#"><em class="fa fa-behance"></em></a>
                 </div>
             </div>
         </div>

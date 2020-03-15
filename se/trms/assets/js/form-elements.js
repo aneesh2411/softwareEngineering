@@ -8,8 +8,7 @@ var FormElements = function() {"use strict";
 		$('.input-mask-eyescript').mask('~9.99 ~9.99 999');
 		$(".input-mask-product").mask("a*-999-a999", {
 			placeholder: " ",
-			completed: function() {
-				alert("You typed the following: " + this.val());
+			
 			}
 		});
 	};

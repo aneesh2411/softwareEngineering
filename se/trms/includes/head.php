@@ -24,13 +24,13 @@
                         </a>
 
                         <div class="user-menu dropdown-menu">
-                            <a class="nav-link" href="adminprofile.php"><i class="fa fa-user"></i>   My Profile</a>
+                            <a class="nav-link" href="adminprofile.php"><em class="fa fa-user"></em>   My Profile</a>
 
                             
 
-                            <a class="nav-link" href="change-password.php"><i class="fa fa-cog"></i>Change Password</a>
+                            <a class="nav-link" href="change-password.php"><em class="fa fa-cog"></em>Change Password</a>
 
-                            <a class="nav-link" href="logout.php"><i class="fa fa-power-off"></i> Logout</a>
+                            <a class="nav-link" href="logout.php"><em class="fa fa-power-off"></em> Logout</a>
                         </div>
                     </div>
 

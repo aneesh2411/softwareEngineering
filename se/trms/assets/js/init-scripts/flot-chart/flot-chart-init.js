@@ -216,9 +216,7 @@
                 timeformat: "%m/%d",
                 minTickSize: [ 1, "day" ]
             },
-            grid: {
-                hoverable: true
-            },
+           
             legend: {
                 show: false
             },
@@ -263,9 +261,7 @@
                 timeformat: "%m/%d",
                 minTickSize: [ 1, "day" ]
             },
-            grid: {
-                hoverable: true
-            },
+           
             legend: {
                 show: false
             },

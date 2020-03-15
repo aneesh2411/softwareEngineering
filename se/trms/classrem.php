@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>CLASS REMINDER</title>
@@ -531,7 +531,7 @@ input[type=text] {
 								 aria-expanded="false">Analyse </a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="analyse.html">Leave taken</a></li>
-									<li class="nav-item"><a class="nav-link" href="course-details.html">Attendance</a></li>
+									<li class="nav-item"><a class="nav-link" href="stuatten.php">Attendance</a></li>
 									<li class="nav-item"><a class="nav-link" href="classrem.php">Classes for me</a></li>
 								</ul>
 							</li>
@@ -539,7 +539,7 @@ input[type=text] {
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							<li class="nav-item">
 								<a href="#" class="nav-link search" id="search">
-									<i class="lnr lnr-magnifier"></i>
+									<em class="lnr lnr-magnifier"></em>
 								</a>
 							</li>
 						</ul>
@@ -555,10 +555,12 @@ input[type=text] {
 <p> CLASS 1</p>
   <div id='tiles1'></div>
   <div class="labels1">
+  <ul>
     <li>Days</li>
     <li>Hours</li>
     <li>Mins</li>
     <li>Secs</li>
+	</ul>
   </div>
 </div>
 </br>
@@ -567,10 +569,12 @@ input[type=text] {
 <p> CLASS 2</p>
   <div id='tiles2'></div>
   <div class="labels2">
+  <ul>
     <li>Days</li>
     <li>Hours</li>
     <li>Mins</li>
     <li>Secs</li>
+	</ul>
   </div>
 </div>
 </br>
@@ -579,10 +583,12 @@ input[type=text] {
 <p> CLASS 3</p>
   <div id='tiles'></div>
   <div class="labels">
+  <ul>
     <li>Days</li>
     <li>Hours</li>
     <li>Mins</li>
     <li>Secs</li>
+	</ul>
   </div>
 </div>
 

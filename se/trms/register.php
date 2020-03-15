@@ -121,7 +121,7 @@ mysqli_query($db,"INSERT INTO `tbladmin`(`ID`, `AdminName`, `UserName`, `MobileN
                         </div>
                                 <div class="checkbox">
                                     <label class="pull-left">
-                                <a href="../index.php">Back Home!!</a>
+                                <a href="index.php">Back Home!!</a>
                                    
                             </label>
 

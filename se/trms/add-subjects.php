@@ -108,7 +108,7 @@ echo "<script>window.location.href ='add-subjects.php'</script>";
  
                                 <div class="form-group"><label for="company" class=" form-control-label">Subject Name</label><input type="text" name="subjects" value="" class="form-control" id="subjects" required="true"></div>
                                               <p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
-                                                            <i class="fa fa-dot-circle-o"></i>  Add
+                                                            <em class="fa fa-dot-circle-o"></em>  Add
                                                         </button></p>
                                                     
                                                 </div>

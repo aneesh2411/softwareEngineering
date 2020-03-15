@@ -57,7 +57,7 @@ window.location='ind.php';
 
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Ordinary Leave Form </title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
@@ -207,34 +207,34 @@ background:
           <h1>Ordinary Leave Application Form</h1>
         </div>
         <div class="item">
-          <label for="name"><b>Name</b><span>*</span></label>
+          <label for="name"><strong>Name</strong><span>*</span></label>
           <div class="name-item">
             <input id="name" type="text" name="fname" placeholder="First" required/>
             <input id="name" type="text" name="lname" placeholder="Last" required/>
           </div>
         </div>
         <div class="item">
-          <label for="bdate"><b>Start date</b><span>*</span></label>
+          <label for="bdate"><stong>Start date</strong><span>*</span></label>
           <input id="bdate" type="date" name="sdate" required/>
-          <i class="fas fa-calendar-alt"></i>
+          <em class="fas fa-calendar-alt"></em>
         </div>
 		  <div class="item">
-          <label for="bdate"><b>End date</b><span>*</span></label>
+          <label for="bdate"><strong>End date</strong><span>*</span></label>
           <input id="bdate" type="date" name="edate" required/>
-          <i class="fas fa-calendar-alt"></i>
+          <em class="fas fa-calendar-alt"></em>
         </div>
         <div class="item">
           <div class="name-item">
             <div>
-              <label for="address"><b>Rollno</b><span>*</span></label>
+              <label for="address"><strong>Rollno</strong><span>*</span></label>
               <input id="address" type="text" name="rollno" required/>
             </div>
             <div>
-              <label for="number"><b>Branch</b><span>*</span></label>
+              <label for="number"><strong>Branch</strong><span>*</span></label>
               <input id="number" type="tel" name="branch" />
             </div>
 			  <div>
-              <label for="number"><b>Phone Number</b><span>*</span></label>
+              <label for="number"><strong>Phone Number</strong><span>*</span></label>
               <input id="number" type="tel" name="number" />
             </div>
           </div>
@@ -242,7 +242,7 @@ background:
         <div class="item">
           <div class="name-item">
             <div>
-              <label for="language"><b>Reason for the leave</b><span>*</span></label>
+              <label for="language"><strong>Reason for the leave</strong><span>*</span></label>
               <input id="apply" type="text" name="reason" size="100"><br>
             </div>
           </div>
@@ -253,26 +253,10 @@ background:
           </div>
         </div>
         <div class="item">
-          <label for="apply"><b>Class Advisor</b><span>*</span></label>
+          <label for="apply"><stong>Class Advisor</strong><span>*</span></label>
           <input id="apply" type="text" name="adv"/>
         </div>
        
-        <!--<div class="item">
-          <label for="cv"><b>Upload medical certificate</b><span>*</span></label>
-          <input  id="cv" type="file" required/>
-        </div>-->
-     <!--   <div class="item">
-          <label for="cover">Cover Letter<span>*</span></label>
-          <input  id="cover" type="file" required/>
-        </div>
-        <div class="item">
-          <label for="picture">Upload Picture</label>
-          <input id="picture" type="file"/>
-        </div>
-        <div class="item">
-          <label for="video">Video Presentation</label>
-          <input  id="video" type="file"/>
-        </div>-->
         <div class="btn-block">
           <button type="submit" name="app">APPLY</button>
         </div>

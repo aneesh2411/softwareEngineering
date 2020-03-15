@@ -6,7 +6,7 @@ include('includes/dbconnection.php');
 $db = mysqli_connect("localhost","root","","trms") or die('Server error');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Table with database</title>
 <style>
@@ -30,9 +30,11 @@ a{
 }
 table, td, th {
   border: 1px solid black;
+  text-align:center;
+
 }
 table{
-width:100%;
+width:70%;
 text-align:center;
 
 }
@@ -95,7 +97,7 @@ background:linear-gradient(to right,#ddd6f3    0%, #faaca8 100%);
 color:linear-gradient(to right,#dd5e89  0%, #f7bb97 100%);
 }
 table {
-width: 100%;
+width: 70%;
 color: #000000;
 font-family: monospace;
 font-size: 25px;
@@ -196,7 +198,7 @@ font-size:30px;
 								 aria-expanded="false">Analyse </a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="analyse.html">Leave taken</a></li>
-									<li class="nav-item"><a class="nav-link" href="course-details.html">Attendance</a></li>
+									<li class="nav-item"><a class="nav-link" href="stuatten.php">Attendance</a></li>
 									<li class="nav-item"><a class="nav-link" href="classrem.php">Classes for me</a></li>
 									<li class="nav-item"><a class="nav-link" href="history.php">Leaves applied</a></li>
 
@@ -206,7 +208,7 @@ font-size:30px;
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							<li class="nav-item">
 								<a href="#" class="nav-link search" id="search">
-									<i class="lnr lnr-magnifier"></i>
+									<em class="lnr lnr-magnifier"></em>
 								</a>
 							</li>
 						</ul>
@@ -218,21 +220,22 @@ font-size:30px;
 <form method="post">
 <div class="topnav">
   <a class="active" href="#home"></a>
-      <a> <b> <center>HISTORY OF OD APPLIED   </center></b> </a>
+      <a> <strong> HISTORY OF OD APPLIED  </strong> </a>
 
 	  </div>
-<table>
+<table align="center">
+<caption> </caption>
 <tr>
-<th>ID  </th>
-<th>FNAME</th>
-<th>LNAME</th>
-<th>SDATE</th>
-<th>EDATE</th>
-<th>ROLLNO</th>
-<th>BRANCH</th>
-<th>NUMBER</th>
-<th>REASON</th>
-<th>ADVISOR</th>
+<th id="id">ID  </th >
+<th id="fname">FNAME</th>
+<th id="lname">LNAME</th>
+<th id="sdate">SDATE</th>
+<th id="edate">EDATE</th>
+<th id="rollno">ROLLNO</th>
+<th id="branch">BRANCH</th>
+<th id="number">NUMBER</th>
+<th id="reason">REASON</th>
+<th id="advisor">ADVISOR</th>
 
 
 
@@ -309,21 +312,21 @@ while($row=mysqli_fetch_array($sql))
 <form method="post">
 <div class="topnav">
   <a class="active" href="#home"></a>
-      <a> <b> <center>HISTORY OF ML APPLIED   </center></b> </a>
+      <a> <strong> HISTORY OF ML APPLIED   </strong> </a>
 
 	  </div>
-<table>
+
 <tr>
-<th>ID  </th>
-<th>FNAME</th>
-<th>LNAME</th>
-<th>SDATE</th>
-<th>EDATE</th>
-<th>ROLLNO</th>
-<th>BRANCH</th>
-<th>NUMBER</th>
-<th>REASON</th>
-<th>ADVISOR</th>
+<th id="id">ID  </th >
+<th id="fname">FNAME</th>
+<th id="lname">LNAME</th>
+<th id="sdate">SDATE</th>
+<th id="edate">EDATE</th>
+<th id="rollno">ROLLNO</th>
+<th id="branch">BRANCH</th>
+<th id="number">NUMBER</th>
+<th id="reason">REASON</th>
+<th id="advisor">ADVISOR</th>
 
 
 
@@ -401,21 +404,21 @@ while($row=mysqli_fetch_array($sql))
 <form method="post">
 <div class="topnav">
   <a class="active" href="#home"></a>
-      <a> <b> <center>HISTORY OF ORDINARY APPLIED   </center></b> </a>
+      <a> <strong> HISTORY OF ORDINARY APPLIED   </strong> </a>
 
 	  </div>
-<table>
+
 <tr>
-<th>ID  </th>
-<th>FNAME</th>
-<th>LNAME</th>
-<th>SDATE</th>
-<th>EDATE</th>
-<th>ROLLNO</th>
-<th>BRANCH</th>
-<th>NUMBER</th>
-<th>REASON</th>
-<th>ADVISOR</th>
+<th id="id">ID  </th >
+<th id="fname">FNAME</th>
+<th id="lname">LNAME</th>
+<th id="sdate">SDATE</th>
+<th id="edate">EDATE</th>
+<th id="rollno">ROLLNO</th>
+<th id="branch">BRANCH</th>
+<th id="number">NUMBER</th>
+<th id="reason">REASON</th>
+<th id="advisor">ADVISOR</th>
 
 
 

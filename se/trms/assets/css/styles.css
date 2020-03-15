@@ -193,7 +193,7 @@ h5.over-title {
 
 .ajax-white-backdrop:after {
   content: "\f110";
-  font-family: FontAwesome;
+
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -607,7 +607,7 @@ h5.over-title {
   font-size: 17px;
   padding: 0;
   margin: 0;
-  font-family: 'themify';
+  
   content: "\e6da";
   left: 5px;
   top: 0;
@@ -759,7 +759,7 @@ h5.over-title {
     transition: opacity 0.3s ease;
     background: rgba(0, 0, 0, 0.5);
     height: 39px;
-    line-height: 39px;
+    
     margin: 10px auto;
     width: 39px;
     border-radius: 20%;
@@ -1088,7 +1088,7 @@ h5.over-title {
 }
 #sidebar > div nav > ul li a .icon-arrow:before {
   content: "\e64a";
-  font-family: themify;
+  
 }
 #sidebar > div nav > ul li.open {
   background: #edecee;
@@ -1221,7 +1221,7 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
   }
   .app-sidebar-closed .app-aside li a .icon-arrow:before {
     content: "\e64a";
-    font-family: themify;
+    
   }
   .app-sidebar-closed .app-aside li.open > a .icon-arrow {
     filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -1236,7 +1236,7 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
     top: 0;
     padding: 13px 0;
     border-bottom: none !important;
-    width: 260px;
+  
     background: #efeff0;
     margin-left: 0;
     z-index: 1051;
@@ -1398,7 +1398,7 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
     padding: 10px 10px 10px 0;
     display: none;
     bottom: -1px;
-    top: -1px;
+   
   }
   .app-sidebar-closed #sidebar .navbar-form .form-group input {
     background: rgba(255, 255, 255, 0.3);
@@ -1462,7 +1462,7 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
 .navbar-form .form-control {
   background: transparent;
   border: medium none;
-  border-radius: 0;
+ 
   box-shadow: none;
   color: #8e8e93;
   display: block;
@@ -3141,7 +3141,7 @@ a.text-light:hover {
   content: "";
   border-bottom-color: #2B3034;
   border-top-width: 0;
-  content: " ";
+ 
   top: -9px;
   left: 10px;
 }
@@ -3160,7 +3160,6 @@ a.text-light:hover {
 .dropdown-menu.dropdown-dark li p, .dropdown-menu.dropdown-dark li a, .dropdown-menu.dropdown-dark .drop-down-wrapper li p, .dropdown-menu.dropdown-dark .drop-down-wrapper li a {
   color: #EDEDED;
   border-bottom-color: #1A1C1E;
-  color: #FFFFFF;
   font-size: 12px;
   font-weight: 300;
   margin: 0;
@@ -3204,7 +3203,7 @@ a.text-light:hover {
   border-width: 11px;
   content: "";
   border-top-width: 0;
-  content: " ";
+  
   top: -11px;
   left: 10px;
 }
@@ -3219,7 +3218,7 @@ a.text-light:hover {
   content: "";
   border-bottom-color: #FFFFFF;
   border-top-width: 0;
-  content: " ";
+  
   top: -9px;
   left: 11px;
 }
@@ -4243,11 +4242,11 @@ a.text-light:hover {
   content: "\f105" !important;
 }
 .accordion .panel-heading .accordion-toggle > .icon-arrow {
-  font-family: FontAwesome;
+ 
   font-size: 11px;
   padding: 0 5px;
   display: inline-block;
-  font-family: FontAwesome;
+  
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -4620,8 +4619,7 @@ textarea, select, input[type="text"], input[type="password"], input[type="dateti
   -webkit-transition: 300ms ease-in-out;
   -moz-transition: 300ms ease-in-out;
   -ms-transition: 300ms ease-in-out;
-  -o-transition: 300ms ease-in-out;
-  transition: 300ms ease-in-out;
+  
 }
 textarea:hover, select:hover, input[type="text"]:hover, input[type="password"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="date"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, input[type="number"]:hover, input[type="email"]:hover, input[type="url"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="color"]:hover {
   border-color: #aeacb4;
@@ -4642,6 +4640,7 @@ textarea.underline, select.underline, input[type="text"].underline, input[type="
   border-radius: 0 0 0 0 !important;
   color: #5b5b60;
   font-family: inherit;
+  transition: border 300ms ease-out;
   font-size: 14px;
   line-height: 1.2;
   padding: 5px 4px;
@@ -4650,7 +4649,7 @@ textarea.underline, select.underline, input[type="text"].underline, input[type="
   -moz-transition: border 300ms ease-out;
   -o-transition: border 300ms ease-out;
   -webkit-transition: border 300ms ease-out;
-  transition: border 300ms ease-out;
+  
 }
 textarea.underline:hover, select.underline:hover, input[type="text"].underline:hover, input[type="password"].underline:hover, input[type="datetime"].underline:hover, input[type="datetime-local"].underline:hover, input[type="date"].underline:hover, input[type="month"].underline:hover, input[type="time"].underline:hover, input[type="week"].underline:hover, input[type="number"].underline:hover, input[type="email"].underline:hover, input[type="url"].underline:hover, input[type="search"].underline:hover, input[type="tel"].underline:hover, input[type="color"].underline:hover {
   border-color: #aeacb4;
@@ -4703,12 +4702,9 @@ select[multiple="multiple"]:focus option {
 }
 .has-error .form-control {
   color: #5b5b60;
-  border-color: #F8F8F8;
+    border-color: #a94442 !important;
   border-bottom-color: #a94442 !important;
   border-bottom-width: 1px !important;
-  border-bottom-style: dotted;
-  border-color: #a94442 !important;
-  border-width: 1px !important;
   border-style: dotted;
 }
 .has-error .form-control:focus, .has-error .form-control:hover {
@@ -4727,13 +4723,10 @@ select[multiple="multiple"]:focus option {
 }
 .has-warning .form-control {
   color: #5b5b60;
-  border-color: #F8F8F8;
-  border-bottom-color: #8a6d3b !important;
+
   border-bottom-width: 1px !important;
   border-bottom-style: dotted;
   border-color: #8a6d3b !important;
-  border-width: 1px !important;
-  border-style: dotted;
 }
 .has-warning .form-control:focus, .has-warning .form-control:hover {
   border-color: #F8F8F8;
@@ -4751,10 +4744,6 @@ select[multiple="multiple"]:focus option {
 }
 .has-success .form-control {
   color: #5b5b60;
-  border-color: #F8F8F8;
-  border-bottom-color: #3c763d !important;
-  border-bottom-width: 1px !important;
-  border-bottom-style: dotted;
   border-color: #3c763d !important;
   border-width: 1px !important;
   border-style: dotted;
@@ -4829,7 +4818,7 @@ span.input-help > input {
 .help-button:before {
   content: "\f128";
   display: inline;
-  font-family: FontAwesome;
+  font-family: inherit;
   font-weight: 300;
   height: auto;
   text-shadow: none;
@@ -4865,7 +4854,7 @@ textarea.autosize.area-animated:focus {
   transition: height 0.2s;
   -webkit-transition: height 0.2s;
   -moz-transition: height 0.2s;
-  transition: height 0.2s;
+ 
   overflow: hidden;
   word-wrap: break-word;
   resize: horizontal;
@@ -4938,21 +4927,21 @@ textarea.autosize.area-animated:focus {
 .has-success .symbol:before {
   content: "\f00c";
   display: inline;
-  font-family: FontAwesome;
+  font-family: inherit;
   color: #468847;
 }
 
 .has-error .symbol:before {
   content: "\f00d";
   display: inline;
-  font-family: FontAwesome;
+  font-family: inherit;
   color: #C82E29;
 }
 
 .has-warning .symbol:before {
   content: "\f071";
   display: inline;
-  font-family: FontAwesome;
+  font-family: inherit;
   color: #eea236;
 }
 
@@ -5048,7 +5037,7 @@ div.cs-select:focus {
 .cs-select .cs-selected span::after {
   content: '\e64c';
   margin-left: 1em;
-  font-family: "themify";
+  font-family: inherit;
   font-size: 60%;
 }
 
@@ -5140,7 +5129,7 @@ div.cs-skin-slide::before {
 
 .cs-skin-slide > span::after,
 .cs-skin-slide.cs-active > span::after {
-  font-family: 'themify';
+  font-family: inherit;
   content: '\e68e';
   color: #007AFF;
   -webkit-backface-visibility: hidden;
@@ -5255,7 +5244,7 @@ div.cs-skin-slide::before {
 .cs-select [class*=" ti-"]:before,
 .cs-select [class^="fa-"]:before,
 .cs-select [class*=" fa-"]:before {
-  font-family: 'themify';
+  font-family: inherit;
   position: absolute;
   left: 5px;
   top: 50%;
@@ -5266,12 +5255,12 @@ div.cs-skin-slide::before {
 
 .cs-select [class^="ti-"]:before,
 .cs-select [class*=" ti-"]:before {
-  font-family: 'themify';
+  font-family: inherit;
 }
 
 .cs-select [class^="fa-"]:before,
 .cs-select [class*=" fa-"]:before {
-  font-family: 'fontawesome';
+  font-family: inherit;
 }
 
 /* Skin Elastic */
@@ -5290,7 +5279,7 @@ div.cs-skin-elastic {
 }
 
 .cs-skin-elastic > span::after {
-  font-family: 'themify';
+  font-family: inherit;
   content: '\e64b';
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -5508,7 +5497,7 @@ input[type="radio"], input[type="checkbox"] {
 .clip-check input[type="checkbox"]:checked + label:after {
   color: #fff;
   content: "\f00c";
-  font-family: "FontAwesome";
+  font-family: inherit;
 }
 .clip-check input[type="checkbox"][disabled] + label {
   opacity: 0.65;
@@ -7983,7 +7972,7 @@ Social Icons
   -moz-transition: all, 0.3s, ease;
   -o-transition: all, 0.3s, ease;
   -webkit-transition: all, 0.3s, ease;
-  transition: all, 0.3s, ease;
+  
 }
 .social-icons ul li a:hover {
   top: -40px;
@@ -7992,7 +7981,7 @@ Social Icons
   position: absolute;
   width: 40px;
   height: 40px;
-  font-family: FontAwesome;
+  font-family: inherit;
   text-indent: 0;
   line-height: 40px;
   top: 0;
@@ -8004,7 +7993,7 @@ Social Icons
   position: absolute;
   width: 40px;
   height: 40px;
-  font-family: FontAwesome;
+  font-family: inherit;
   text-indent: 0;
   line-height: 40px;
   top: 40px;
@@ -8154,7 +8143,7 @@ Social Icons
 .btn-scroll {
   position: relative;
   overflow: hidden;
-  font-family: Helvetica, Arial, sans-serif !important;
+  font-family: inherit!important;
   line-height: inherit !important;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -8164,13 +8153,13 @@ Social Icons
   font-size: 14px;
 }
 .btn-scroll[class*="fa-"]:before {
-  font-family: FontAwesome;
+  font-family: inherit;
 }
 .btn-scroll[class*="ti-"]:before {
-  font-family: themify;
+  font-family: inherit;
 }
 .btn-scroll:after {
-  content: "";
+  
   position: absolute;
   transition: all 0.3s ease 0s;
   z-index: -1;
@@ -8184,8 +8173,6 @@ Social Icons
   text-transform: none;
   font-size: 100%;
   height: 100%;
-  line-height: 2.5;
-  position: absolute;
   transition: all 0.3s ease 0s;
   width: 100%;
 }
@@ -9122,9 +9109,7 @@ nav.links a {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transform-origin: 0% 50%;
-  -moz-transform-origin: 0% 50%;
-  transform-origin: 0% 50%;
+  
 }
 
 .cl-effect-20 a span::before {
@@ -9294,7 +9279,7 @@ nav.links a {
   content: "\f00c";
   display: inline;
   float: right;
-  font-family: FontAwesome;
+  font-family: inherit;
   font-weight: 300;
   height: auto;
   text-shadow: none;
@@ -9447,7 +9432,7 @@ nav.links a {
 
 .lock-screen .user-info h4 {
   color: #666666;
-  font-family: 'Raleway', sans-serif;
+  font-family: inherit;
   font-weight: 300;
   margin-top: 0;
 }
@@ -9487,7 +9472,7 @@ nav.links a {
 }
 
 .invoice h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: inherit;
   font-weight: 300 !important;
 }
 
@@ -9526,7 +9511,6 @@ div.timeline .columns > li:nth-child(2n+1) .timeline_element {
   float: right;
   left: 10%;
   margin-right: 30px;
-  left: 0;
   opacity: 1;
 }
 div.timeline .columns > li:nth-child(2n+1) .timeline_element:before {
@@ -9548,7 +9532,7 @@ div.timeline .columns > li:nth-child(2n+2) .timeline_element {
   margin-left: 30px;
   right: 10%;
   opacity: 1;
-  right: 0;
+  
 }
 div.timeline .columns > li:nth-child(2n+2) .timeline_element:before {
   left: -27px;
@@ -9572,7 +9556,6 @@ div.timeline .date_separator span {
   position: absolute;
   top: -200%;
   width: 200px;
-  top: 50%;
   left: 50%;
   margin-left: -100px;
   background-color: #007AFF;
@@ -9731,7 +9714,7 @@ div.timeline .column_center .timeline_element:before, div.timeline .column_cente
   z-index: 100;
   background-color: #FFFFFF;
   border: 1px solid #CCCCCC;
-  z-index: 100;
+
 }
 .timeline_element .timeline_title {
   overflow: hidden;
@@ -10112,7 +10095,7 @@ td.small-width {
 }
 .ltwt .ltwt_tweet:before {
   content: "\e74b";
-  font-family: 'themify';
+  font-family: inherit;
   font-size: 30px;
   margin-left: -45px;
   position: absolute;
@@ -11025,13 +11008,12 @@ td.small-width {
 /*  Pricing Tables
 /* ---------------------------------------------------------------------- */
 .pricing-table .plan {
-  border: none;
   margin: 20px 0;
   position: relative;
   padding: 0;
   list-style: none;
   border: 1px solid #e2e2e4;
-  border-bottom: none;
+
   text-align: center;
 }
 .pricing-table .plan li {
@@ -11235,7 +11217,7 @@ td.small-width {
   }
 }
 #page-title .mainDescription {
-  font-family: "Lato", sans-serif;
+  font-family: inherit;
   color: #777;
   display: block;
   font-size: 18px;
@@ -11257,7 +11239,7 @@ td.small-width {
   right: 30px !important;
   top: 50% !important;
   width: auto !important;
-  font-family: "Lato", sans-serif;
+  font-family: inherit;
 }
 @media (max-width: 767px) {
   #page-title .breadcrumb {
@@ -11322,7 +11304,7 @@ td.small-width {
   height: auto !important;
   margin: 0 auto;
   width: auto !important;
-  font-family: 'themify';
+  font-family: inherit;
 }
 
 .picker__nav--next:before {
@@ -11335,14 +11317,14 @@ td.small-width {
 
 .picker__button--close:before {
   content: "\e646" !important;
-  font-family: 'themify';
+  font-family: inherit;
 }
 
 .picker__button--clear:before {
   border: none !important;
   top: auto !important;
   width: auto !important;
-  font-family: 'themify';
+  font-family: inherit;
   content: "\e6a5" !important;
   font-size: 1.1em;
 }

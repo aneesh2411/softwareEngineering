@@ -8,6 +8,7 @@ $name=$_GET['a'];
 <html lang="en">
 
 <head>
+<title>sdkjh sdv vkhs vsdh </title>
 <style>
 body{
 background-color:#CC9999;
@@ -33,9 +34,10 @@ tr:nth-child(even) {
 <body>
 <form action="" method="post">
 <table border="1" width="500">
+<caption>dvsd sdvs </caption>
 			 <?php while($row = mysqli_fetch_array($filter_Result)):?>
 			<tr>
-    <th>ID:</th>
+    <th id="id">ID:</th>
     <td><input type="hidden" name="un" value="<?php echo $row['UserName'];?>"<input type="text" name="id" value="<?php echo $row['ID'];?>"></td>
 	
   </tr>
