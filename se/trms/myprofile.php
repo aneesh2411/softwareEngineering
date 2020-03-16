@@ -24,7 +24,8 @@ function filterTable($query)
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<title>rjhmnvb rgjv j</title>
 <style>
 body{
 	background: -webkit-linear-gradient(left, #3931af, #00c6ff);
@@ -192,34 +193,35 @@ height:50px;
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 				
 			<table>
-			 <?php while($row = mysqli_fetch_array($search_result)):?>
+			<caption>vjnsvd kdjsv </caption>
+			<?php while($row = mysqli_fetch_array($search_result)):?>
 			<tr>
-    <th>ID:</th>
+    <th id="id">ID:</th>
     <td><?php echo $row['ID'];?></td>
 	<td><a >Change</a></td>
   </tr>
   <tr>
-    <th>NAME:</th>
+    <th id="name">NAME:</th>
     <td><?php echo $row['AdminName'];?></td>
 	<td><a href="up.php?a=<?php echo $row['UserName']; ?>">Change</a></td>
   </tr>
   <tr>
-    <th>USERNAME:</th>
+    <th id="username">USERNAME:</th>
     <td><?php echo $row['UserName'];?></td>
 	<td><a href="up.php?a=<?php echo $row['UserName']; ?>">Change</a></td>
   </tr>
    <tr>
-    <th>MOBILE NUMBER:</th>
+    <th id="phnnum">MOBILE NUMBER:</th>
     <td><?php echo $row['MobileNumber'];?></td>
 	<td><a href="up.php?a=<?php echo $row['UserName']; ?>">Change</a></td>
   </tr>
    <tr>
-    <th>EMAIL:</th>
+    <th id="email">EMAIL:</th >
     <td><?php echo $row['Email'];?></td>
 	<td><a href="up.php?a=<?php echo $row['UserName']; ?>">Change</a></td>
   </tr>
    <tr>
-    <th>REGISTERED DATE:</th>
+    <th id="register">REGISTERED DATE:</th>
     <td><?php echo $row['AdminRegdate'];?></td>
 	<td><a >Change</a></td>
   </tr>

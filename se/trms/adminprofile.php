@@ -2,10 +2,6 @@
 session_start();
 error_reporting(0);
 include('includes/dbconnection.php');
-/*if (strlen($_SESSION['trmsaid']==0)) {
-  header('location:logout.php');
-  } 
-  else{*/
     if(isset($_POST['submit']))
   {
     $adminid=$_SESSION['trmsaid'];
@@ -185,10 +181,12 @@ foreach($results as $row)
                                                     </div>
                                                     
                                                     </div>
-                                                     <?php $cnt=$cnt+1;}} ?>  
+                                                     <?php $cnt=$cnt+1;
+													 }
+													 } ?>  
                                                      <div class="card-footer">
                                                        <p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
-                                                            <i class="fa fa-dot-circle-o"></i> Update
+                                                            <em class="fa fa-dot-circle-o"></em> Update
                                                         </button></p>
                                                         
                                                     </div>

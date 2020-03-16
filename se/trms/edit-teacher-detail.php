@@ -124,7 +124,7 @@ foreach($results as $row)
 </div>
 
 <div class="form-group">
-<label for="company" class=" form-control-label">Teacher Pic</label> &nbsp;<img src="images/<?php echo $row->Picture;?>" width="100" height="100" value="<?php  echo $row->Picture;?>">
+<label for="company" class=" form-control-label">Teacher Pic</label> &nbsp;<img src="images/<?php echo $row->Picture;?>" alt="dsvsdv" width="100" height="100" value="<?php  echo $row->Picture;?>">
 <a href="changeimage.php?editid=<?php echo $row->ID;?>"> &nbsp; Edit Image</a>
 </div>
 
@@ -177,7 +177,7 @@ foreach($result2 as $row1)
 </div>
 <?php $cnt=$cnt+1;}} ?>
 
-<p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit"><i class="fa fa-dot-circle-o"></i> Update</button></p> 
+<p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit"><em class="fa fa-dot-circle-o"></em> Update</button></p> 
                                                      
                                                 </div>
                                                 </form>

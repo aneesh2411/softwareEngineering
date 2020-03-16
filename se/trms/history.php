@@ -6,7 +6,7 @@ include('includes/dbconnection.php');
 $db = mysqli_connect("localhost","root","","trms") or die('Server error');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Table with database</title>
 <style>
@@ -208,7 +208,7 @@ font-size:30px;
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							<li class="nav-item">
 								<a href="#" class="nav-link search" id="search">
-									<i class="lnr lnr-magnifier"></i>
+									<em class="lnr lnr-magnifier"></em>
 								</a>
 							</li>
 						</ul>
@@ -220,21 +220,22 @@ font-size:30px;
 <form method="post">
 <div class="topnav">
   <a class="active" href="#home"></a>
-      <a> <b> <center>HISTORY OF OD APPLIED   </center></b> </a>
+      <a> <strong> HISTORY OF OD APPLIED  </strong> </a>
 
 	  </div>
 <table align="center">
+<caption>dsjvbsjv sdj cj </caption>
 <tr>
-<th>ID  </th>
-<th>FNAME</th>
-<th>LNAME</th>
-<th>SDATE</th>
-<th>EDATE</th>
-<th>ROLLNO</th>
-<th>BRANCH</th>
-<th>NUMBER</th>
-<th>REASON</th>
-<th>ADVISOR</th>
+<th id="id">ID  </th >
+<th id="fname">FNAME</th>
+<th id="lname">LNAME</th>
+<th id="sdate">SDATE</th>
+<th id="edate">EDATE</th>
+<th id="rollno">ROLLNO</th>
+<th id="branch">BRANCH</th>
+<th id="number">NUMBER</th>
+<th id="reason">REASON</th>
+<th id="advisor">ADVISOR</th>
 
 
 
@@ -311,21 +312,21 @@ while($row=mysqli_fetch_array($sql))
 <form method="post">
 <div class="topnav">
   <a class="active" href="#home"></a>
-      <a> <b> <center>HISTORY OF ML APPLIED   </center></b> </a>
+      <a> <strong> HISTORY OF ML APPLIED   </strong> </a>
 
 	  </div>
-<table align="center">
+
 <tr>
-<th>ID  </th>
-<th>FNAME</th>
-<th>LNAME</th>
-<th>SDATE</th>
-<th>EDATE</th>
-<th>ROLLNO</th>
-<th>BRANCH</th>
-<th>NUMBER</th>
-<th>REASON</th>
-<th>ADVISOR</th>
+<th id="id">ID  </th >
+<th id="fname">FNAME</th>
+<th id="lname">LNAME</th>
+<th id="sdate">SDATE</th>
+<th id="edate">EDATE</th>
+<th id="rollno">ROLLNO</th>
+<th id="branch">BRANCH</th>
+<th id="number">NUMBER</th>
+<th id="reason">REASON</th>
+<th id="advisor">ADVISOR</th>
 
 
 
@@ -403,21 +404,21 @@ while($row=mysqli_fetch_array($sql))
 <form method="post">
 <div class="topnav">
   <a class="active" href="#home"></a>
-      <a> <b> <center>HISTORY OF ORDINARY APPLIED   </center></b> </a>
+      <a> <strong> HISTORY OF ORDINARY APPLIED   </strong> </a>
 
 	  </div>
-<table align="center">
+
 <tr>
-<th>ID  </th>
-<th>FNAME</th>
-<th>LNAME</th>
-<th>SDATE</th>
-<th>EDATE</th>
-<th>ROLLNO</th>
-<th>BRANCH</th>
-<th>NUMBER</th>
-<th>REASON</th>
-<th>ADVISOR</th>
+<th id="id">ID  </th >
+<th id="fname">FNAME</th>
+<th id="lname">LNAME</th>
+<th id="sdate">SDATE</th>
+<th id="edate">EDATE</th>
+<th id="rollno">ROLLNO</th>
+<th id="branch">BRANCH</th>
+<th id="number">NUMBER</th>
+<th id="reason">REASON</th>
+<th id="advisor">ADVISOR</th>
 
 
 

@@ -77,17 +77,18 @@ $sdata=$_POST['searchteacher'];
 
                             <div class="card-body">
                                 <table class="table table-responsive" border="1">
+								<caption>sfgvreb d </caption>
                                     <thead>
                                         <tr>
                                             <tr>
-                  <th>S.No.</th>
-                  <th>Photo</th>
-                  <th>Teacher Name</th>
-                  <th>Subject</th>
-                  <th>Teacher Email</th>
-                  <th>Teacher Contact Number</th>
-                  <th>Teacher Qualification</th>
-                  <th>Teacher Address</th>       
+                  <th id="sno">S.No.</th>
+                  <th id="photo">Photo</th>
+                  <th id="tname">Teacher Name</th>
+                  <th id="subject">Subject</th>
+                  <th id="tmail">Teacher Email</th>
+                  <th id="tpn">Teacher Contact Number</th>
+                  <th id="tq">Teacher Qualification</th>
+                  <th id="taddress">Teacher Address</th>       
                   
                 </tr>
                                   
@@ -107,7 +108,7 @@ foreach($results as $row)
               
                 <tr>
                   <td><?php echo htmlentities($cnt);?></td>
-                   <td><img src="admin/images/<?php echo $row->Picture;?>" height="100"></td>
+                   <td><img src="admin/images/<?php echo $row->Picture;?>" alt="Admin" height="100"></td>
                   <td><?php  echo htmlentities($row->Name);?></td>
                   <td><?php  echo htmlentities($row->TeacherSub);?></td>
                   <td><?php  echo htmlentities($row->Email);?></td>

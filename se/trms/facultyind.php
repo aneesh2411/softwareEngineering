@@ -8,6 +8,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
+<title>this is title tag</title>
 <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -49,11 +50,12 @@ table {
   	<div class="card-body">
   		<div class="table-responsive">
         <table style="width:80%;" class="table table-striped table-bordered" id="student_table">
+		<caption>this is discription</ caption>
           <thead>
             <tr>
-              <th>Roll no</th>
-              <th>Name</th>
-              <th>Username</th>
+              <th id="rollno">Roll no</th>
+              <th id="name">Name</th>
+              <th id="username">Username</th>
 			
             </tr>
           </thead>
@@ -191,7 +193,7 @@ while($row=mysqli_fetch_array($sql))
   	</div>
   </div>
 </div>
- <center><button id="btn" type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="login">submit</button></center>
+ <button id="btn" type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="login">submit</button>
 </form>
 
 

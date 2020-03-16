@@ -91,7 +91,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
                                         
                                                     </div>
                                                    <p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
-                                                            <i class="fa fa-dot-circle-o"></i> Submit
+                                                            <em class="fa fa-dot-circle-o"></em> Submit
                                                         </button></p>
                                                   
                                                 </div>

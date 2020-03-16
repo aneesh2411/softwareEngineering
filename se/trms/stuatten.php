@@ -7,7 +7,7 @@ $db = mysqli_connect("localhost","root","","trms") or die('Server error');
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Untitled Document</title>
@@ -451,7 +451,7 @@ body {
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							<li class="nav-item">
 								<a href="#" class="nav-link search" id="search">
-									<i class="lnr lnr-magnifier"></i>
+									<em class="lnr lnr-magnifier"></em>
 								</a>
 							</li>
 						</ul>
@@ -474,15 +474,16 @@ if(isset($_POST['but']))
 <form method="post">
 <div class="topnav">
   <a class="active" href="#home"></a>
-      <a> <b> <center>ATTENDANCE STATUS &nbsp;&nbsp;<button name="but" class="y" type="submit" > Complaint </button> </center></b> </a>
+      <a> <strong> <em>ATTENDANCE STATUS &nbsp;&nbsp;<button name="but" class="y" type="submit" > Complaint </button> </em></strong> </a>
 
 	  </div>
 <table align="center">
+<caption>sv  sdv</caption>
 <tr>
-<th>Roll no  </th>
-<th>Attendance status</th>
-<th>Date</th>
-<th>Updated date </th>
+<th id="rollno">Roll no  </th>
+<th id="astatus">Attendance status</th>
+<th id="date">Date</th>
+<th id="uodate">Updated date </th>
 
 
 
@@ -533,7 +534,7 @@ while($row=mysqli_fetch_array($sql))
 
 </table>
 </form>
-<center><div class="popup" onclick="myFunction()"> <div class="sign"><span class="fast-flicker">CLI</span>CK<span class="flicker">HE</span>RE</div><center>
+<em><div class="popup" onclick="myFunction()"> <div class="sign"><span class="fast-flicker">CLI</span>CK<span class="flicker">HE</span>RE</div><em>
   <span class="popuptext" id="myPopup">SOFTWARE ENGINEERING : </br> 85% </br>"Bunk class : 2 more"</br> "Marks provided : 3"</span>
 </div>
 </span>
